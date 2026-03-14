@@ -1,0 +1,124 @@
+{
+  "patients": [
+    {
+      "patient_id": "P001",
+      "name": "Rahul Sharma",
+      "age": 34,
+      "gender": "Male",
+      "blood_group": "O+",
+      "phone": "9876543210",
+      "address": "Solapur, Maharashtra",
+      "disease": "Hypertension",
+      "admission_date": "2026-03-01",
+      "doctor": "Dr. Mehta"
+    },
+    {
+      "patient_id": "P002",
+      "name": "Anita Verma",
+      "age": 28,
+      "gender": "Female",
+      "blood_group": "A+",
+      "phone": "9876543211",
+      "address": "Pune, Maharashtra",
+      "disease": "Diabetes",
+      "admission_date": "2026-03-02",
+      "doctor": "Dr. Kulkarni"
+    },
+    {
+      "patient_id": "P003",
+      "name": "Vikram Singh",
+      "age": 45,
+      "gender": "Male",
+      "blood_group": "B+",
+      "phone": "9876543212",
+      "address": "Mumbai, Maharashtra",
+      "disease": "Asthma",
+      "admission_date": "2026-03-03",
+      "doctor": "Dr. Shah"
+    },
+    {
+      "patient_id": "P004",
+      "name": "Sneha Patil",
+      "age": 31,
+      "gender": "Female",
+      "blood_group": "AB+",
+      "phone": "9876543213",
+      "address": "Kolhapur, Maharashtra",
+      "disease": "Migraine",
+      "admission_date": "2026-03-04",
+      "doctor": "Dr. Deshmukh"
+    },
+    {
+      "patient_id": "P005",
+      "name": "Arjun Gupta",
+      "age": 52,
+      "gender": "Male",
+      "blood_group": "O-",
+      "phone": "9876543214",
+      "address": "Nagpur, Maharashtra",
+      "disease": "Heart Disease",
+      "admission_date": "2026-03-05",
+      "doctor": "Dr. Patel"
+    },
+    {
+      "patient_id": "P006",
+      "name": "Pooja Nair",
+      "age": 26,
+      "gender": "Female",
+      "blood_group": "A-",
+      "phone": "9876543215",
+      "address": "Bengaluru, Karnataka",
+      "disease": "Anemia",
+      "admission_date": "2026-03-06",
+      "doctor": "Dr. Reddy"
+    },
+    {
+      "patient_id": "P007",
+      "name": "Rohan Das",
+      "age": 39,
+      "gender": "Male",
+      "blood_group": "B-",
+      "phone": "9876543216",
+      "address": "Hyderabad, Telangana",
+      "disease": "Tuberculosis",
+      "admission_date": "2026-03-07",
+      "doctor": "Dr. Khan"
+    },
+    {
+      "patient_id": "P008",
+      "name": "Kavita Joshi",
+      "age": 47,
+      "gender": "Female",
+      "blood_group": "AB-",
+      "phone": "9876543217",
+      "address": "Jaipur, Rajasthan",
+      "disease": "Arthritis",
+      "admission_date": "2026-03-08",
+      "doctor": "Dr. Bansal"
+    },
+    {
+      "patient_id": "P009",
+      "name": "Amit Chatterjee",
+      "age": 36,
+      "gender": "Male",
+      "blood_group": "O+",
+      "phone": "9876543218",
+      "address": "Kolkata, West Bengal",
+      "disease": "Dengue",
+      "admission_date": "2026-03-09",
+      "doctor": "Dr. Roy"
+    },
+    {
+      "patient_id": "P010",
+      "name": "Neha Kapoor",
+      "age": 29,
+      "gender": "Female",
+      "blood_group": "A+",
+      "phone": "9876543219",
+      "address": "Delhi, India",
+      "disease": "Typhoid",
+      "admission_date": "2026-03-10",
+      "doctor": "Dr. Malhotra"
+    }
+  ]
+}
