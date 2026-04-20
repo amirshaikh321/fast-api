@@ -1,5 +1,17 @@
 from fastapi import FastAPI, Path,HTTPException, Query
 import json
+from pydantic import BaseModel, Field
+from typing import Annotated, Literal
+
+class Patient(BaseModel):
+
+    id = Annotated[str, Field(..., description='ID of the Patient', examples=['P001'])]
+    name =Annotated[str, Field(..., description='Name of the patient')]
+    city = Annotated[str, Field(..., description='City is where the patient is living')]
+    age = Annotated[int, Field(..., gt= 0, lt= 120, description='Age of the Patient')]
+    gender = Annotated[Literal['male','female','other'], Field(..., description='Gender of the patient')]
+    height = Annotated[float, Field(..., gt = 0, description='Height of the patient in mtrs')]
+    weight = Annotated[float, Field(..., gt = 0, description='weight of the patient in kgs')]
 
 app = FastAPI()
 
